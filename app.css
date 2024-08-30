@@ -1,0 +1,54 @@
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #147c33;
+    border: 2px solid #111111;
+    
+
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: 1px dashed #f0e9ef;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 2px;
+}
+
+input[type="text"],
+input[type="radio"], 
+
+input[type="checkbox"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #cccccc;
+}
+
+input[type="submit"],
+input[type="reset"],
+button {
+    padding: 8px 12px;
+    background-color: #d0ff00;
+    color: #f8f0f0;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:hover {
+    background-color: #c000d9;
+}
